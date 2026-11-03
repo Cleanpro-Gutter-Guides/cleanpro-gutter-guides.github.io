@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Finishing sign-in</title>
+</head>
+<body>
+<p>Finishing sign-in. If nothing happens, close this tab.</p>
+<script>
+  // Hands the one-time Facebook approval code to the setup script running on this computer.
+  location.replace("http://localhost:8765/callback" + location.search);
+</script>
+</body>
+</html>
